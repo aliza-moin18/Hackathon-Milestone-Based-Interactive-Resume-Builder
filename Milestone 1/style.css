@@ -1,0 +1,92 @@
+/* General Styling */
+body {
+    font-family: 'Arial', sans-serif;
+    background-color:#e5e6e3bf;
+    margin: 0;
+    padding: 170px;
+}
+
+.resume {
+    display: flex;
+    background-color: rgb(213, 124, 188);
+    width: 80%;
+    margin: 0 auto;
+    border-radius: 10px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+}
+
+/* Left Section Styling */
+
+.left-section {
+    background-color: rgb(188, 175, 163);
+    color: rgb(73, 46, 8);
+    padding: 20px;
+    width: 35%;
+    text-align: center;
+    border-right: 5px solid #5e4749;
+}
+
+.Profile-Picture {
+    width: 205px;
+    height: 230px;
+    margin-top: 10%;
+    border-radius: 50%;
+    border: 5px solid #5e4749;
+    margin-bottom: 30px;
+}
+
+.certification {
+    margin-top: 20%;
+}
+
+h1 {
+    font-size: 30px;
+    margin: 10px 0;
+    margin-bottom: 30px;
+    text-align: center;
+}
+
+h3 {
+    background-color: rgb(189, 177, 138);
+    font-size: 18px;
+    padding: 2%;
+    margin: 20px 0 10px;
+    color: rgb(0, 0, 0);
+    border-radius: 10px;
+    box-shadow: 0 0 15px #662b30;
+    margin-top: 5%;
+    margin-bottom: 5%;
+}
+
+ul {
+    list-style-type: fill round;
+    padding: 10;
+    margin: 10px 0;
+}
+
+ul li {
+    margin: 5px 0;
+}
+
+/* Right Section Styling */
+
+.right-section {
+    padding: 20px;
+    width: 65%;
+    color: rgb(67, 53, 34);
+}
+
+button {
+    font-family: Arial, sans-serif;
+    border-radius: 10px;
+    box-shadow: 0 0 15px black;
+    cursor: pointer;
+    margin-top: 15px;
+    font-size: 18px;
+    background-color: rgb(179, 174, 160);
+}
+
+button:hover {
+    background-color: rgb(137, 116, 87);
+    color: aliceblue;
+}
